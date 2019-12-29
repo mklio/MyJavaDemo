@@ -1,18 +1,12 @@
 package javatestdemo;
 
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataInputStream;
-import org.apache.hadoop.fs.FileSystem;
-import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.IOUtils;
-import org.junit.Test;
-import org.junit.Before;
-import org.junit.After;
-import java.net.URI;
-
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
-import static org.junit.matchers.JUnitMatchers.*; 
+import static org.junit.matchers.JUnitMatchers.*;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test; 
 
 public class AppTest {
 	@Before

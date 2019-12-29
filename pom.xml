@@ -42,24 +42,6 @@
 			<version>1.3</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-common</artifactId>
-			<version>2.9.2</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-hdfs</artifactId>
-			<version>2.9.2</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.hadoop</groupId>
-			<artifactId>hadoop-client</artifactId>
-			<version>2.9.2</version>
-			<scope>compile</scope>
-		</dependency>
 	</dependencies>
 
 	<build>
@@ -71,7 +53,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>hadoopdemo.hdfsdemo.HDFS_HADOOP_URL</mainClass>
+							<mainClass>javademo.Demo1</mainClass>
 							<addClasspath>true</addClasspath>
 						</manifest>
 					</archive>
